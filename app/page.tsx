@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Book, Shield, GraduationCap, BookOpen } from "lucide-react";
 
 const courses = [
-  { title: "UPSC", id: "upsc", icon: Book, color: "bg-orange-100 text-blue-600" },
+  { title: "UPSC", id: "upsc", icon: Book, color: "bg-orange-50 text-blue-600" },
   { title: "TNPSC", id: "tnpsc", icon: Book, color: "bg-blue-100 text-blue-600" },
   { title: "TET", id: "tet", icon: GraduationCap, color: "bg-green-100 text-green-600" },
   { title: "TN Police", id: "police", icon: Shield, color: "bg-red-100 text-red-600" },
