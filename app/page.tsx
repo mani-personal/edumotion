@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Book, Shield, GraduationCap } from "lucide-react";
+import { Book, Shield, GraduationCap, BookOpen } from "lucide-react";
 
 const courses = [
   { title: "TNPSC Preparations", id: "tnpsc", icon: Book, color: "bg-blue-100 text-blue-600" },
