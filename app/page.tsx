@@ -7,6 +7,7 @@ const courses = [
   { title: "TNPSC Preparations", id: "tnpsc", icon: Book, color: "bg-blue-100 text-blue-600" },
   { title: "TET Exams", id: "tet", icon: GraduationCap, color: "bg-green-100 text-green-600" },
   { title: "Police Questions", id: "police", icon: Shield, color: "bg-red-100 text-red-600" },
+  { title: "Banking Exams", id: "bank", icon: BookOpen, color: "bg-purple-100 text-purple-600" },
 ];
 
 const containerVariants = {
