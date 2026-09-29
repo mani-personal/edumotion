@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FileText, Download } from "lucide-react";
 
 const materials = [
-  { id: 1, title: "TNPSC Group 4 Syllabus 2026", date: "Sept 28, 2026", link="/pdfs/Manikandan_Kannan_Lead_Data_Engineer_Resume_Portfolio.pdf},
+  { id: 1, title: "TNPSC Group 4 Syllabus 2026", date: "Sept 28, 2026", link="/pdfs/Manikandan_Kannan_Lead_Data_Engineer_Resume_Portfolio.pdf"},
   { id: 2, title: "General Tamil Model Question Paper", date: "Sept 27, 2026" },
   { id: 3, title: "Indian Polity - Quick Revision Notes", date: "Sept 26, 2026" },
 ];
