@@ -35,7 +35,7 @@ export default function TnpscFolder() {
               </div>
             </div>
             <a href={file.link} 
-            target="_blank" 
+            target="" 
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-indigo-600 hover:bg-indigo-50 px-4 py-2 rounded-lg font-medium transition-colors">
             <Eye className="w-4 h-4" /> Read Online
