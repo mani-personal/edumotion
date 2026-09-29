@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { FileText, Download } from "lucide-react";
+import { FileText, Eye } from "lucide-react";
 
 const materials = [
   { id: 1, title: "TNPSC Group 4 Syllabus 2026", date: "Sept 28, 2026", link: "/pdfs/Manikandan_Kannan_Lead_Data_Engineer_Resume_Portfolio.pdf"},
@@ -34,9 +34,12 @@ export default function TnpscFolder() {
                 <span className="text-xs text-slate-500">Added: {file.date}</span>
               </div>
             </div>
-            <button className="flex items-center gap-2 text-indigo-600 hover:bg-indigo-50 px-4 py-2 rounded-lg font-medium transition-colors">
-              <Download className="w-4 h-4" /> Download
-            </button>
+            <a href={file.link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-indigo-600 hover:bg-indigo-50 px-4 py-2 rounded-lg font-medium transition-colors">
+            <Eye className="w-4 h-4" /> Read Online
+            </a>
           </motion.div>
         ))}
       </div>
